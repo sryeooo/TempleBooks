@@ -1,0 +1,248 @@
+html {
+    font-size: 100%;
+}
+
+@font-face {
+    font-family: irsans;
+    src: url("../Fonts/irsans_p30download.com.ttf") format("truetype");
+}
+@font-face {
+    font-family: Vazirmatn;
+    src: url("../Fonts/Vazirmatn-Regular.ttf") format("truetype");
+}
+
+body {
+    direction: rtl;
+    background-color: rgba(250, 242, 242, 0.871);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 85%;
+    height: 15vh;
+    background-color: rgba(251, 246, 246, 0.727);
+    border: 1px solid rgba(213, 192, 192, 0.727);
+    border-radius: 25px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   /* padding: 0 20px; */
+}
+nav{
+    width: 85%;
+    height: 9vh;
+    background-color:rgba(255, 255, 255, 0.453);
+    border: 1px solid rgba(213, 192, 192, 0.727);
+    border-radius: 13px;
+    margin: auto;
+    margin-top: 4vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    /*background-color: antiquewhite;*/
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo-img {
+    width: 200px;
+    height: auto;
+}
+
+.logo-caption {
+    margin-left: 10px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    margin-right: 10px;
+}
+
+.search-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 17px;
+}
+
+.search-image {
+    width: 40px;
+    height: auto;
+}
+#search{
+    height: 5vh;
+    width: 100%;
+    border: 1px solid rgba(184, 154, 154, 0.925);
+    border-radius: 5px;
+}
+#search::placeholder{
+    font-family: irsans;
+}
+#iconU{
+    width: 30px;
+    height: auto;
+}
+#menu{
+    width: 30px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.main-content {
+    width: 100%;
+    min-height: 50vh;
+    background-color: rgba(255, 255, 255, 0.453);
+    border: 1px solid rgba(213, 192, 192, 0.727);
+    border-radius: 13px;
+    margin: auto;
+    margin-top: 4vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+.profile{
+    margin: auto;
+    font-family: irsans;
+    font-size: 0.75rem;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.box {
+    display: inline-block;
+}
+
+.content {
+    width: 20%;
+    height: 100%;
+    background-color: brown;
+}
+main{
+    width: 90%;
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 0.453);
+    border: 1px solid rgba(213, 192, 192, 0.727);
+    border-radius: 13px;
+    margin: auto;
+    margin-top: 4vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    font-family: irsans;
+}
+
+.Container{
+    width: 100%;
+    height: 60vh;
+    overflow-x: scroll;
+    background-color:rgba(255, 255, 255, 0.453);
+    border: 1px solid rgba(213, 192, 192, 0.727);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+/* گرد کردن بوردر اسکرول*/
+.Container::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 8px;
+}
+/* تغییر رنگ پیکر*/
+.Container::-webkit-scrollbar-thumb{
+    background-color: #888;
+    border-radius: 8px;
+}
+/* تغییر رنگ پس زمینه*/
+.Container::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+    border-radius: 8px;
+}
+
+
+.box{
+    width: 120%;
+    height: 60vh;
+    display: flex;
+}
+.Content{
+    width: 20%;
+    height: 100%;
+    background-color: rgba(250, 242, 242, 0.871);
+    border: 1px solid white;
+}
+.cont{
+    border: 1px solid rgba(187, 163, 163, 0.76);
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+}
+.image-cover{
+    height: 211px;
+    width: 100%;
+    margin: auto;
+}
+.cont-text{
+    direction: rtl;
+}
+.cont-button{
+    border: 1px solid rgb(207, 184, 184);
+    margin-top: 3vh;
+    width: 100%;
+    height: 5vh;
+}
+footer {
+    width: 85%;
+    height: 18vh;
+    background-color: rgba(255, 255, 255, 0.453);
+    border: 1px solid rgba(213, 192, 192, 0.727);
+    border-radius: 13px;
+    margin: auto;
+    margin-top: 4vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    font-family: irsans;
+}
+
+.icon-header{
+    width: 150px;
+    height: auto;
+}
+.div-span{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 18px;
+
+}
+.inner-span{
+   
+   font-family: irsans;
+   margin: auto;
+   
+   
+}
+.inner-span:hover{
+    border: 1px solid rgb(214, 30, 30);
+    border-radius: 4px;
+    background-color: rgba(223, 65, 65, 0.74);
+    
+}
+.inner-span a{
+    text-decoration: none;
+}
+.price{
+    font-family: Vazirmatn;
+}
+.cont a{
+    text-decoration: none;
+}

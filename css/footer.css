@@ -1,0 +1,12 @@
+
+.menu li{
+    display: inline-block;
+    list-style-type:none;
+}
+footer div ul li{
+    margin-right: 0.5px;
+}
+.social-icon{
+    width: 25px;
+    height: 25px;
+}
