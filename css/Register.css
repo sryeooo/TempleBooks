@@ -1,0 +1,103 @@
+@font-face {
+    font-family: irsans;
+    src: url("../Fonts/irsans_p30download.com.ttf");
+    }
+
+
+#login-page{
+    width: 90%;
+    height: 55vh;
+    display: flex;
+    margin: auto;
+}
+#container-right{
+    width: 50%;
+    background-color:rgba(236, 164, 227, 0.658);
+    border-radius: 15px;
+}
+#container-left{
+    width: 50%;
+    background-color: rgba(19, 201, 192, 0.514);
+    border-radius: 15px;
+}
+.main-register{
+    margin-right: 10px;
+}
+.login-register{
+    margin: 2px 4px 5px 4px;
+}
+.link-register{
+    padding-bottom: 2px;
+    border-bottom: 3px solid rgb(255, 0, 0);
+}
+.link-register:hover{
+    padding-bottom: 2px;
+    border-bottom: 3px solid yellow;
+}
+
+.link{
+    text-decoration: none;
+}
+.form-row{
+    font-family: irsans;
+}
+
+.input-field{
+    width: 90%;
+    height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.925);
+    border-radius: 5px;
+}
+.input-field::placeholder{
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.input-field:hover{
+    border: 1px solid red;
+}
+.password-repassword{
+    display: flex;
+    width: 90%;
+}
+.input-field-password{
+    width: 50%;
+    height: 30px;
+    margin-right: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.925);
+    border-radius: 5px;
+}
+.input-field-password::placeholder{
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.input-field-password:hover{
+    border: 1px solid red;
+}
+
+#captcha{
+    width: 90.7%;
+    height: 30px;
+    background-color:rgb(255, 255, 255);
+    margin-top: 14px;
+    margin-bottom: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.945);
+    border-radius: 5px;
+    text-align: center;
+}
+#captcha:hover{
+    border: 1px solid red;
+}
+
+
+.register-button{
+    height: 30px;
+    width: 90%;
+    background-color: rgba(0, 250, 42, 0.945);
+    border-radius: 5px;
+    border: 1px solid rgba(0, 250, 42, 0.945);
+}
+.register-button:hover{
+    border: 2px solid rgba(255, 255, 255, 0.945);
+}
